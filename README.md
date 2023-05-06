@@ -26,7 +26,7 @@ add_filter( 'wp_handle_upload_prefilter', 'media_upload_only_for_admin' );
 By implementing this function, you can:
 
 - Enhance the security of your WordPress website by preventing unauthorized file uploads.
-- Protect your website from being used for illegal activities, such as preparing for a crime with NFTs. (Thats is the reason for this readme! I cacht them! :smile:
+- Protect your website from being used for illegal activities, such as preparing for a crime with NFTs. (Thats is the reason for this readme! I cach them today for harming good humans (Websites who helps children) :smile:
 - Ensure that only users with the appropriate permissions can upload files, maintaining control over the content hosted on your website.
 To use this function, simply add the code snippet to your theme's functions.php file or create a custom plugin to include it.
 ```php
