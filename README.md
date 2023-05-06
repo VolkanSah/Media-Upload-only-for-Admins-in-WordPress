@@ -18,16 +18,16 @@ function media_upload_only_for_admin( $file ) {
 add_filter( 'wp_handle_upload_prefilter', 'media_upload_only_for_admin' );
 ```
 
-The custom function media_upload_only_for_admin checks if the current user has the capability to manage_options, which is usually associated with administrators. If they do not have the required capability, an error message is added to the $file array, preventing the file upload.
+- The custom function media_upload_only_for_admin checks if the current user has the capability to manage_options, which is usually associated with administrators. If they do not have the required capability, an error message is added to the $file array, preventing the file upload.
 
-The add_filter() function hooks the custom function to the wp_handle_upload_prefilter filter, which is triggered before a file is uploaded to the WordPress media library.
+- The add_filter() function hooks the custom function to the wp_handle_upload_prefilter filter, which is triggered before a file is uploaded to the WordPress media library.
 
-Why Use This Function?
+### Why Use This Function?
 By implementing this function, you can:
 
-Enhance the security of your WordPress website by preventing unauthorized file uploads.
-Protect your website from being used for illegal activities, such as preparing for a crime with NFTs.
-Ensure that only users with the appropriate permissions can upload files, maintaining control over the content hosted on your website.
+- Enhance the security of your WordPress website by preventing unauthorized file uploads.
+- Protect your website from being used for illegal activities, such as preparing for a crime with NFTs. (Thats is the reason for this readme! I cacht them! :smile:
+- Ensure that only users with the appropriate permissions can upload files, maintaining control over the content hosted on your website.
 To use this function, simply add the code snippet to your theme's functions.php file or create a custom plugin to include it.
 
 Note: Always make a backup of your website before making changes to the code and test the functionality in a staging environment to ensure it works as expected.
