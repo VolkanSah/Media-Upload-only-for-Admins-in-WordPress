@@ -59,8 +59,9 @@ add_filter( 'wp_handle_upload_prefilter', 'media_upload_only_for_admin' );
 
 Note: Always make a backup of your website before making changes to the code and test the functionality in a staging environment to ensure it works as expected.
 
-## Credits
+## Thanks
 - If you appreciate my work, please consider [becoming a 'Sponsor'](https://github.com/sponsors/volkansah), giving a :star: to my projects, or following me. Thank you for your support!
+## Credits
 - [VolkanSah on Github](https://github.com/volkansah)
 - [Developer Site](https://volkansah.github.io)
 
