@@ -61,11 +61,11 @@ Note: Always make a backup of your website before making changes to the code and
 
 ### Thank you for your support!
 - If you appreciate my work, please consider [becoming a 'Sponsor'](https://github.com/sponsors/volkansah), giving a :star: to my projects, or following me. 
-## Credits
+### Credits
 - [VolkanSah on Github](https://github.com/volkansah)
 - [Developer Site](https://volkansah.github.io)
 
-## License
+### License
 This project is licensed under the MIT - see the [LICENSE](LICENSE) file for details.
 
 
