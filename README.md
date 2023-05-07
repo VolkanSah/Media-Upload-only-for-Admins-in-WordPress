@@ -29,9 +29,9 @@ By implementing this function, you can:
 - Protect your website from being used for illegal activities, such as preparing for a crime with NFTs. (Thats is the reason for this readme! I cach them today for harming good humans (Websites who helps children) :smile:
 - Ensure that only users with the appropriate permissions can upload files, maintaining control over the content hosted on your website.
 To use this function, simply add the code snippet to your theme's functions.php file or create a custom plugin to include it.
-```php
-Plugin example: 
 
+Plugin example: 
+```php
 <?php /**
  * @wordpress-plugin
  * Plugin Name:       Upload only for Admins!
