@@ -1,6 +1,6 @@
 # Media Upload only for "Admins" in WordPress
 
-This code snippet provides a custom function for WordPress that restricts file uploads on the website to administrators or users with the appropriate permissions. This can help prevent unauthorized users from uploading malicious files or using your website for nefarious purposes, such as preparing for a crime with NFTs, as illustrated in the provided example.
+This code snippet provides a custom function for WordPress that restricts file uploads on the website to administrators or users with the appropriate permissions. This can help prevent unauthorized users from uploading malicious files or using your website for nefarious purposes, such as preparing for a crime with NFTs.
 
 ## Function Explanation
 ```php
